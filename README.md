@@ -2,7 +2,7 @@
 
 Labels for content made with or without AI.
 
-[Preview of the images in the pack](image-pack/ai-label_pack-preview.png?raw=true)
+[Preview of the images in the pack](https://raw.githubusercontent.com/ecogex/ai-label/main/image-pack/ai-label_pack-preview.png)
 
 ## License
 
