@@ -1,0 +1,14 @@
+
+  @font-face {
+    font-family: 'archivo';
+    src: url('Archivo-VariableFont_wdth,wght.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'archivo';
+  src: url('Archivo-Italic-VariableFont_wdth,wght.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}

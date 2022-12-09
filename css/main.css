@@ -1,0 +1,103 @@
+body {
+  font: 21px/1.5em archivo, arial, sans-serif;
+  font-variation-settings: 'wght' 420, 'wdth' 100;
+  letter-spacing: .02em;
+  background: #eee;
+  max-width: 800px;
+  width: 90%;
+  margin: 30px auto;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+section {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  background: white;
+}
+.download-box{
+  margin: 100px 0;
+  text-align: center;
+}
+.download-link {
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  background: white;
+  padding: .8em 1em;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  box-shadow: 0px 1px 2px rgba(100, 100, 100, .5);
+}
+
+.download-link:active {
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0);
+  position: relative;
+  top: 1px;
+}
+
+.labels{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+.labels figure img{
+  height:90px;
+  width: auto;
+}
+
+figure {
+  margin: 50px 0;
+  background: white;
+  padding:5px;
+}
+.full{
+  width:100%;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-variation-settings: 'wght' 330, 'wdth' 88;
+  font-size: 16px;
+}
+p {
+  margin-bottom: 1.4em;
+}
+em{
+  font-style: italic;
+}
+a {
+  color: orangered;
+}
+
+figure.main {
+  width: 100%;
+  padding: 0 25%;
+}
+
+footer {
+  font-variation-settings: 'wght' 500, 'wdth' 80;
+  clear: both;
+  border-top: 1px solid gray;
+  padding: 10px 0 0 0;
+  font-size: 18px;
+  line-height: 1.4em;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 12em;
+  margin-top: 5px;
+}

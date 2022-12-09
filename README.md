@@ -6,4 +6,4 @@ Labels for content made with or without AI.
 
 ## License
 
-[CC BY SA](https://creativecommons.org/licenses/by-sa/2.0/)
+[CC BY SA](https://creativecommons.org/licenses/by-sa/4.0/)
