@@ -2,7 +2,7 @@
 
 Labels for content made with or without AI.
 
-[Preview of the images in the pack](image-pack/ai-label_pack-preview.png)
+[Preview of the images in the pack](image-pack/ai-label_pack-preview.png?raw=true)
 
 ## License
 
