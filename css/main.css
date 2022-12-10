@@ -2,6 +2,7 @@ body {
   font: 21px/1.5em archivo, arial, sans-serif;
   font-variation-settings: 'wght' 420, 'wdth' 100;
   letter-spacing: .02em;
+  color:#333;
   background: #eee;
   max-width: 800px;
   width: 90%;
