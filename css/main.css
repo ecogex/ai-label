@@ -72,13 +72,13 @@ figcaption {
   font-variation-settings: 'wght' 330, 'wdth' 88;
   font-size: 16px;
 }
-p {
+p{
   margin-bottom: 1.4em;
 }
 em{
   font-style: italic;
 }
-a {
+a{
   color: orangered;
 }
 
@@ -86,19 +86,43 @@ figure.main {
   width: 100%;
   padding: 0 25%;
 }
+.hashtags{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 120px 0;
+}
+.hashtags i{
+  border-radius: 5px;
+  background: white;
+  padding: .5em .7em;
+  display: block;
+  font-size: 1.2em;
+  box-shadow: inset 0 2px 3px gray;
+  font-variation-settings: 'wght' 300, 'wdth' 100;
+}
+.hashtags i:nth-child(1){
+  background: #f4ff80;
+}
+.hashtags i:nth-child(2){
+  background: #83fbdb;
+}
+.hashtags i:nth-child(3){
+  background: #94caea;
+}
 
 footer {
   font-variation-settings: 'wght' 500, 'wdth' 80;
   clear: both;
-  border-top: 1px solid gray;
+  border-top: 1px solid lightgray;
   padding: 10px 0 0 0;
   font-size: 18px;
   line-height: 1.4em;
   display: flex;
   justify-content: space-between;
 }
-
 footer img {
-  width: 9em;
+  width: 6em;
   margin-top: 5px;
 }
+::selection {background:Wheat;}
+::-moz-selection {background:Wheat;}
