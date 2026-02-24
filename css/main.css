@@ -23,14 +23,6 @@ h1 {
   margin-right: auto;
   font-size: 0.7 em;
 }
-/* 
-section {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  background: white;
-} */
 .big-title {
   font-size: 3rem;
   height: 100vh;
@@ -136,12 +128,6 @@ footer p {
   display: flex;
   align-items: center;
   padding-top: 8px;
-}
-::selection {
-  background:Wheat;
-}
-::-moz-selection {
-  background:Wheat;
 }
 
 
@@ -263,40 +249,34 @@ footer p {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*! padding: 18px; */
   border-radius: 18px;
   background: transparent;
   border: 2px solid transparent;
+  transition: ease-in-out 0.2s;
+  &:nth-child(1){--c: #f4ff80;}
+  &:nth-child(2){--c: #83fbdb;}
+  &:nth-child(3){--c: #94caea;}
+  &.is-active, &:hover{
+    border: 2px solid color-mix(in srgb, var(--c) 95%, black 5%);
+    background: var(--c);
+    img{
+      opacity: 1;
+      filter: none;
+    }
+  }
+  &.is-active{
+    box-shadow: 0px 15px 30px var(--c);
+  }
+  img{
+    width: 4vw;
+    opacity: 1;
+    background: transparent;
+    margin: 1rem;
+  }
 }
-.logo a img {
-  width: 85px;
-  opacity: 1;
-  filter: invert(0.25);
-  background: transparent;
-  margin: 1rem;
-}
-.logo a.is-active img {
-  opacity: 1;
-  filter: none;
-}
-.logo a.is-active:nth-child(1) {
-  background: #f4ff80;
-  box-shadow: 0px 15px 30px #f4ff80;
-  border: 2px solid color-mix(in srgb, #f4ff80 95%, black 5%);
-  transition: ease-in-out 0.5s;
-}
-.logo a.is-active:nth-child(2) {
-  background: #83fbdb;
-  box-shadow: 0px 15px 30px #83fbdb;
-  border: 2px solid color-mix(in srgb, #83fbdb 95%, black 5%);
-  transition: ease-in-out 0.5s;
-}
-.logo a.is-active:nth-child(3) {
-  background: #94caea;
-  box-shadow: 0px 15px 30px #94caea;
-  border: 2px solid color-mix(in srgb, #94caea 95%, black 5%);
-  transition: ease-in-out 0.5s;
-}
+
+
+
 .download-box {
   margin-top: 6%;
   text-align: center;
@@ -498,4 +478,11 @@ footer p {
   .logo {
     gap: 3rem;
   }
+}
+
+::selection {
+  background:Wheat;
+}
+::-moz-selection {
+  background:Wheat;
 }
