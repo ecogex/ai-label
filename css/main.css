@@ -218,6 +218,7 @@ footer p {
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  background:#f3f3f3;
 }
 .left-text {
   height: 50vh;
@@ -257,7 +258,7 @@ footer p {
   &:nth-child(2){--c: #83fbdb;}
   &:nth-child(3){--c: #94caea;}
   &.is-active, &:hover{
-    border: 2px solid color-mix(in srgb, var(--c) 95%, black 5%);
+    border: 2px solid color-mix(in hsl, var(--c) 90%, black);
     background: var(--c);
     img{
       opacity: 1;
